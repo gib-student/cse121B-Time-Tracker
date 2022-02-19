@@ -7,9 +7,8 @@ header {
     background-color: cadetblue;
     padding: 10px;
 }
-#input {
-    display: flex;
-    justify-content: space-evenly;
+h4 {
+    font-size: 1.3em;
 }
 .start-time, .end-time, .activity {
     display: flex;
@@ -39,6 +38,10 @@ hr {
     body {
         margin-left: 20%;
         margin-right: 20%;
+    }
+    #input {
+        display: flex;
+        justify-content: space-evenly;
     }
     
 }
