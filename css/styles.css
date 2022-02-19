@@ -1,6 +1,6 @@
 body {
-    margin-left: 20%;
-    margin-right: 20%;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 header {
     text-align: center;
@@ -33,4 +33,12 @@ hr {
     border: 0;
     height: 1px;
     background: #333;
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
 }
